@@ -17,7 +17,8 @@
 // Output: 3
 // Explanation: People pass the pillow in the following way: 1 -> 2 -> 3.
 // After two seconds, the 3rd person is holding the pillow.
- 
+
+
 class Solution {
     public int passThePillow(int n, int time) {
   int period = 2 * n - 2;
